@@ -1,0 +1,108 @@
+html{
+  height: 100%
+}
+.heading{
+  bottom: 1px;
+  box-shadow: 0px 2px 0px 0px #f0f5f5;
+  height: auto;
+  width: 88.5%;
+  float: right;
+  padding: 10px;
+  padding-right: 100px;
+}
+body{
+  font-family: 'Times New Roman', Times, sans-serif;
+  height: 100%;
+  overflow: scroll;
+}
+.navbar{
+  top: 0;
+  position: fixed;
+  vertical-align: top;
+  width: 40px;
+  height: 100%;
+  float: left;
+  border-right-width: 3px;
+  border-right-style: solid;
+  border-right-color: #f0f5f5;
+}
+.netbody{
+float: right;
+overflow-x: scroll;
+  padding: 10px;
+  width: 88.5%;
+}
+.left{
+  transform: translateY(300%);
+  position: absolute;
+  left: -60px;
+  padding: 15px;
+  width: 70px;
+  height: 70px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  background-color: #f7f7f7;
+  border-radius: 0px 70px 70px 0px;
+}
+.left:hover{
+background-color: #dedede;
+  left: 0;
+}
+.right{
+  transform: translateY(300%);
+  text-align: right;
+  float: right;
+  position: absolute;
+  right: -60px;
+  padding: 15px;
+  width: 70px;
+  height: 70px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  background-color: #f7f7f7;
+  border-radius: 70px 0px 0px 70px;
+}
+.right:hover{
+  background-color: #dedede;
+  right: 0;
+}
+#p1{
+  background-color: #fafafa;
+  padding: 10px;
+  width: 85%;
+  height: auto;
+}
+.button1{
+  color: #00a6a6;
+  background-color: white;
+  border-color: #00a6a6;
+  border-width: thin;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.cards{
+display: inline-block;
+color: #5c8a8a;
+height: 250px;
+width: 300px;
+padding: 10px;
+margin: 20px;
+}
+.cards:hover{
+  box-shadow: 2px 2px 5px grey;
+}
+.text img{
+  float: left;
+  padding: 10px;
+}
+.text{
+  padding: 10px;
+  color: black;
+}
+.metadata{
+  padding: 10px;
+  display: inline-block;
+}
